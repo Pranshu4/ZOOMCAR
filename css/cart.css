@@ -1,0 +1,398 @@
+
+        body{
+            font-family: 'IBM Plex Sans', sans-serif;;
+        }
+        #container{
+            width: 40%;
+            height: auto;
+            margin: auto;
+            margin-top: 50px;
+        }
+        #outer{
+            width:  100%;
+            margin: auto;
+            height: 105px;
+            display: flex;
+        }
+        #topdivsub1{
+            width: 65%;
+            height: 100%;
+        }
+        #topdivsub2{
+            width: 25%;
+            height: 100%;
+            
+        }
+        #topdivsub2>div>img{
+            width: 100%;
+        }
+        #topdivsub2>div{
+          margin-left: 30px;  
+        }
+        #firstdiv{
+            width: 100%;
+            height: 40px;
+            font-weight: bold;
+            line-height: 24px;
+        }
+        #divfor1122{
+            display: flex;
+            color: gray;
+        }
+        #divfor1122>div+div{
+             margin-left: 15px;
+        }
+        #divfor1122>div{
+             font-size: 13px;
+        }
+        #topseconddiv{
+            width: 100%;
+            height: 30px;
+            display: flex;
+        }
+        #topsecondsub1{
+            width: 30px;    
+        }
+        #topsecondsub1>img{
+            width: 100%;
+        }
+        #topsecondsub1+div{
+            margin-left: 20px;
+            margin-top: 4px;
+            font-size: 14px;
+        }
+        #topthirddiv{
+            display: flex;
+            height: 20px;
+        }
+        #imgdiv{
+            width: 26px;
+            height: 26px;
+        }
+
+        #imgdiv>img{
+            width: 100%;
+            height: 100%;
+        }
+        #imgdiv+div{
+            margin-left: 24px;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        #topfourthpara{
+            font-size: 12px;
+            margin-left: 20px;
+            margin-top: 40px;
+            color:#5e59aa;
+            font-weight: 590;
+        }
+        #deliveryandpickup{
+            display: flex;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 40px;
+        }
+        #deliverysubdiv1{
+            width: 29px;
+            height: 29px;
+        }
+        #deliverysubdiv1>img{
+            width: 100%;
+            height: 100%;
+        }
+        #deliverysubdiv1+div{
+            margin-left: 25px;
+            font-size: 14px;
+            width: 83%;
+        }
+        #deliveryandpickup p{
+            margin-top: 2px;
+            font-size: 12px;
+            color: gray;
+        }
+
+
+
+        #deliveryandpickup1{
+            display: flex;
+            width: 100%;
+            height: 50px;
+        }
+        #deliverysubdiv11{
+            width: 29px;
+            height: 29px;
+        }
+        #deliverysubdiv11>img{
+            width: 100%;
+            height: 100%;
+        }
+        #deliverysubdiv11+div{
+            margin-left: 25px;
+            font-size: 14px;
+            width: 83%;
+        }
+        #deliveryandpickup1 p{
+            margin-top: 2px;
+            font-size: 12px;
+            color: gray;
+        }
+
+
+        #deliveryandpickup11{
+            display: flex;
+            width: 100%;
+            height: 50px;
+        }
+        #deliverysubdiv111{
+            width: 29px;
+            height: 29px;
+        }
+        #deliverysubdiv111>img{
+            width: 100%;
+            height: 100%;
+        }
+        #deliverysubdiv111+div{
+            margin-left: 25px;
+            font-size: 14px;
+            width: 83%;
+        }
+        #deliveryandpickup11 p{
+            margin-top: 2px;
+            font-size: 12px;
+            color: gray;
+        }
+        #recomend{
+            color: green;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+
+
+
+        #deliveryandpickup112{
+            display: flex;
+            width: 100%;
+            height: 50px;
+            margin-top: 40px;
+        }
+        #deliverysubdiv1112{
+            width: 29px;
+            height: 29px;
+        }
+        #deliverysubdiv1112>img{
+            width: 100%;
+            height: 100%;
+        }
+        #deliverysubdiv1112+div{
+            margin-left: 25px;
+            font-size: 14px;
+            width: 83%;
+        }
+        #deliveryandpickup112 p{
+            margin-top: 2px;
+            font-size: 12px;
+            color: gray;
+        }
+        #b+p{
+            width: 80%;
+            margin-top: -20px;
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 400;
+            letter-spacing: 0.4px;
+        }
+        #divimg2{
+            width: 29px;
+            height: 29px;
+        }
+        #divimg2>img{
+            width: 100%;
+            height: 100%;
+        }
+        #diva{
+            width: 100%;
+            height: 30px;
+            display: flex;
+        }
+        #divimg2+div{
+            margin-left: 25px;
+            font-size: 14px;
+            letter-spacing: 0.24px; 
+        }
+        #divb{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            margin-top: 30px;
+            line-height: 7px;
+        }
+        #divb>div{
+            font-size: 14px;
+        }
+        #divimgb{
+            width: 29px;
+            height: 29px;
+        }
+        #divimgb>img{
+            width: 100%;
+            height: 100%;
+        }
+        #divimgb+div{
+            font-size: 14px;
+            letter-spacing: 0.24px;
+            margin-left: 25px;
+        }
+        #divb p{
+            color: gray;
+            font-size: 12px;
+            margin-bottom: 20px;
+            line-height: 14px;
+        }
+        #anchor{
+            text-decoration: underline;
+        }
+
+
+        #divc{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            margin-top: 30px;
+            line-height: 7px;
+        }
+        #divc>div{
+            font-size: 14px;
+        }
+        #divimgc{
+            width: 29px;
+            height: 29px;
+        }
+        #divimgc>img{
+            width: 100%;
+            height: 100%;
+        }
+        #divimgc+div{
+            font-size: 14px;
+            letter-spacing: 0.24px;
+            margin-left: 25px;
+        }
+        #divc p{
+            color: gray;
+            font-size: 12px;
+            margin-bottom: 20px;
+        
+        }
+
+
+
+
+
+
+        #divd{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            margin-top: 30px;
+            line-height: 7px;
+            margin-bottom: 300px;
+        }
+        #divd>div{
+            font-size: 14px;
+        }
+        #divimgd{
+            width: 29px;
+            height: 29px;
+        }
+        #divimgd>img{
+            width: 100%;
+            height: 100%;
+        }
+        #divimgd+div{
+            font-size: 14px;
+            letter-spacing: 0.24px;
+            margin-left: 25px;
+        }
+        #divd p{
+            color: gray;
+            font-size: 12px;
+            margin-bottom: 20px;
+            line-height: 14px;
+        }
+        #divd3checkbox{
+            margin-left: 200px;
+        }
+
+        #divdown{
+            margin: auto;
+            width: 540px;
+            height: 100px;
+            margin-top: 230px;
+            position: fixed;
+            bottom: 10px;
+            background-color: whitesmoke;
+
+        }
+        #divdown1{
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            font-weight: 500;
+            line-height: 16px
+        }
+        #divdown button{
+            margin-top: 13px;
+            width: 100%;
+            height: 56px;
+            background-color: #10a310;
+            color: white;
+            border-radius: 6px;
+            box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.8px;
+            cursor: pointer;
+        }
+        .popdiv{
+            width: 340px;
+            height: 500px;
+             box-shadow:  0 8px 10px -5px rgb(0 0 0 / 20%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 16px 24px 2px rgb(0 0 0 / 14%);
+            background-color: whitesmoke;
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%,-50%)scale(0.1);
+            border-radius: 15px;
+            padding:20px;
+            visibility: hidden;
+            transition:transform 0.4s, top 0.4s;
+        }
+        .popdiv h2{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .popdiv span{
+            margin-right: 20px;
+            color: #10a310;
+            margin-left: 10px;
+        }
+        #popdivspa{
+            margin-top: 30px;
+            cursor: pointer;
+        }
+        .open-popup{
+            visibility:visible ;
+            top: 50%;
+            transform: translate(-50%,-50%)scale(1);
+            opacity: 100%;
+        }
+        #cross{
+            background-color: rgb(216, 204, 204);
+            width: 100%;
+            height: 100%;
+            border-radius: 30%;
+            color: black;
+            margin-left: 320px;
+            font-size: 30px;
+            cursor: pointer;
+        }

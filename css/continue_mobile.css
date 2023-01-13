@@ -1,0 +1,49 @@
+
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#continue_mobile_container{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 2%;
+}
+
+.mobile{
+    padding-top: 15px;
+    padding-bottom: 15PX;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 2px;
+    border:0;
+    border: 1px solid rgb(194, 183, 183);
+
+}
+
+.mobile_number{
+    padding-top: 15px;
+    padding-bottom: 15PX;
+    padding-left: 10px;
+    padding-right: 200px;
+    margin-left: 3%;
+    border-radius: 2px;
+    border:0;
+    border: 1px solid rgb(194, 183, 183);
+}
+
+#continue_btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    margin-top: 73%;
+    color: white; 
+    background-color: #e0e0e0;
+    font-weight: BOLD;
+}

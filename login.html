@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/0e3d6c2c8d.js" crossorigin="anonymous"></script>
+   
+    <title>Self Drive Car Rentals | Rent a Car | Car Hire @Zoomcar</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+
+    <div id="registerBox">
+        <h3>New here? Welcome!</h3>
+        <h4 id="dynamicData"></h4>
+        <button class="continue_btn" id="registerButton">REGISTER</button>
+    </div>
+
+
+    <div id="container">
+        <div id="topDiv"></div>
+        <div> <img class="zoom" src="https://www.zoomcar.com/build/fb65fcc43b8bededb813e093ea2d47d3.svg" />
+        </div>
+        
+        <div class="login">
+            
+                <h3>Enter details to login/sign-up</h2>
+                    <br>
+                    <div id="mobile_number">
+                        <select class="mobile_details">
+                            <option>+91</option>
+                        </select>
+                    <span class="stick">|</span> 
+
+                        <input class="num" type="number" placeholder="Enter mobile number"/>
+                        
+
+                    </div>
+        <hr>
+        <p class="email_green">Continue with Email ID</p>
+        <HR>
+            <div id="social_media">
+                <p class="green_social">Continue via Social </p>
+                <img class="imgfb" src="https://www.zoomcar.com/build/62ba375ec1a9fbcbee9e9099181c8d38.svg"/>
+                <img class="imgfb" src="https://www.zoomcar.com/build/279de03b0c8ecdb4db56a79da6e775e6.svg"/>
+            
+               
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <div id="continue_mobile_container">
+        <div class="left_arrow"><img src="https://cdn-icons-png.flaticon.com/512/109/109618.png" width="18px"/></div>
+        
+        <h3 id="phoneNumberLabel">
+            Enter Mobile Number
+        </h3>
+        <br>
+        <div id="enter_number">
+            
+            <select class="mobile">
+              
+                <option>+91</option>
+                <option>+63</option>
+                <option>+84</option>
+                <option>+62</option>
+                
+            </select>
+
+            <input class="mobile_number" id="mobileNumber" type="number" placeholder="Mobile Number"/>
+            <span id="spanWarning">Enter a valid phone number</span>
+        </div>
+
+
+           <center><button id="continue_btn">CONTINUE</button></center> 
+    </div>
+
+
+
+
+
+
+</body>
+</html>
+<script src="./js/login.js"></script>

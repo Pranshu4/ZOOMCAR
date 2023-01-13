@@ -1,0 +1,419 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+*>button{
+    cursor: pointer;
+}
+/* #backImage{
+    height: 650px;
+    width: 100%;
+    background-image: url('https://www.zoomcar.com/img/bg-desktop.png'); */
+
+/* } */
+#Home{
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  opacity: 20% ;
+ background-color: #4e3926;
+}
+#conttainer {
+    position: fixed;
+    height: 500px;
+    width: 100%;
+    background-color:white;
+    margin: auto;
+    font-weight: 100;
+}
+
+p {
+    text-align: center;
+    font-size: 1cm;
+}
+
+#country {
+    height: 50px;
+    width: 260px;
+    border-radius: 7px;
+}
+#box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#lang {
+    height: 50px;
+    width: 280px;
+    margin-left: 540px;
+    /* margin-bottom: 10px; */
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #10a310;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 1.14;
+    border: none;
+    margin-left: 560px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+*>button{
+    cursor: pointer;
+}
+#navbar{
+    background-color: black;
+    height: 81px;
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+  font-size: 19px;
+  margin-top: 7px;
+  margin-left: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+#logo{
+   font-size: 32px;
+   color: white;
+   margin-left: 20px;
+   margin-top: 13px;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;       
+}
+#imgnavbar{
+      height: 43px;
+      margin-left: 20px;
+      margin-top: 19px;
+}
+#img{
+  justify-content: flex-start;
+  width: 48%;
+  cursor: pointer;
+}
+#rightnav{
+  width: 49%;
+  display: flex;
+  justify-content: space-around;
+}
+#rightnav>button{
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+#top2{
+    margin: auto;
+    margin-left: 300px;
+}
+#backgrnd{
+ height: 550px;
+ width: 100%;
+ background-image: url('https://www.zoomcar.com/img/bg-desktop.png');
+ background-size: cover;
+ background-position: bottom right;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+
+}
+#arraow{
+ color: green;
+}
+#A{
+width: 500px;
+margin: auto;
+font-size: 14px;
+margin-top: 340px;
+cursor: pointer;
+}
+#greendiv{
+width: 467px;
+height: 50px;
+border-radius: 4px;
+border: 1px solid gainsboro;
+background-color: white;
+color: #abb3bb;
+display: flex;
+align-items: center;
+font-size: 15px
+}
+#Findcar{
+width: 459px;
+height: 53px;
+background-color: #e0e0e0;
+border: none;
+box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+color: #a8a8a8;
+font-size: 14px;     
+font-weight: 600; 
+box-sizing: inherit;
+border-radius: 4px;
+cursor: pointer;
+}
+#green{
+color: green;
+margin-right: 14px;
+margin-left: 10px;
+font-size: 9px;
+}
+#container{  
+width: 50%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(4,auto);
+gap: 20px;
+}
+
+#container>div>img{
+width: 100%;
+border-radius: 5px;
+cursor: pointer;
+}
+#referandlogin{
+   margin-top: 200px;
+   display: flex;
+   height: 169px;
+   justify-content: center;
+}
+#refer{
+display: flex;
+width: 500px;
+height: 150px;
+padding: 10px;
+margin-left: 30px;
+border-radius: 4px;
+border: 1px solid #d8d8d8;
+box-shadow: 0 5px 5px 0 rgb(0 0 0 / 30%);
+justify-content:center ;
+}
+h4+p{
+color: #736e6a;
+}
+#referimg{
+width: 35%;
+}
+#referimg>img{
+width: 100%  ;
+}
+#imgafetdiv{
+margin-left: 10px;
+width: 75%;
+}
+#offerw{
+height: 300px;
+width: 1050px;
+margin: auto;
+margin-top: 150px;
+overflow-x: auto;
+}
+#cards{
+display: flex;
+height: 220x;
+width: 2890px;  
+}
+#cards>div{
+width: 300px;
+height: 100%;
+margin-left: 14px;
+}
+#cards>div>img{
+width: 100%;
+}
+#ofr{
+margin-left: 17px;
+margin-bottom: 1px;
+}
+#about{
+text-align: center;
+color: #736e6a;
+}
+#r{
+color: #736e6a;
+width: 56%;
+}
+#downtext{
+margin: auto;
+width: 60%;
+text-align: justify;
+color: black;
+}
+#downtext>p{
+font-size: 14px;
+color: black;
+}
+#sideleft{
+height: 100%;
+width: 0%;
+position: fixed;
+background-color:#ffffff;
+z-index: 1;
+top: 0;
+left: 0;
+overflow-x: hidden;
+transition: 0.5s;
+}
+#sideleft>div{
+height: 30px;
+width: 100%;
+margin-top: 20px;
+margin-left: 17px;
+color: #4d4947;
+font-size: 12px;
+font-weight: 500;
+cursor: pointer;
+}
+#sideleft>div>span{
+margin-right: 20px;
+}
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+  }
+  
+  /* Modal Content */
+  .modal-content {
+  position: fixed;
+  left: 0;
+  background-color: #fefefe;
+  width: 30%;
+  height:100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+  }
+  
+  
+  
+  .close:hover,
+  .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  
+  
+  
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+  from {left: -300px; opacity: 0} 
+  to {left: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+  from {left: -300px; opacity: 0}
+  to {left: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+  }  
+  
+  
+  #sidebar {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  /* left: -300px; */
+  }
+  
+  #sidebar.active {
+  left: 0;
+  }
+  
+  #login {
+  background-color: #f5f5f5;
+  /* color: black; */
+  }
+  
+  #sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 15px;
+  color: grey;
+  padding-left: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+  
+  }
+  #sidebar ul a i {
+  margin-right: 16px;
+  }
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  
+  
+  }
+  
+  #sidebar .toggle {
+  position: absolute;
+  top: 30px;
+  left: 330px;
+  }
+  
+  .toggle span {
+  width: 45px;
+  height: 4px;
+  background-color: black;
+  display: block;
+  margin-top: 4px;
+  }

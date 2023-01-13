@@ -1,0 +1,46 @@
+
+body{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+#container{
+border: 1px solid gainsboro;
+display: flex;
+margin: auto;
+width: 30%;
+height: 44px;
+margin-top: 90px;
+border-radius: 5px;
+}
+#green{
+padding: 10px;
+padding-left: 13px;
+}
+span{
+color: green;
+font-size: 8px;
+margin-right: 20px;
+text-align: center;
+}
+input{
+border: 0;
+width: 600px;
+}
+#SS{
+display: flex;
+margin: auto;
+width: 30%;
+margin-top: 34px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+#SS>p{
+margin-left: 15px;
+font-size: 14px;
+}
+#backarr{
+color: grey;
+font-size: 30px;
+margin-left: 20px;
+margin-top: 10px;
+cursor: pointer;
+}

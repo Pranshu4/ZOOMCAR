@@ -1,0 +1,180 @@
+
+        *{
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+        body{
+            overflow-y: hidden;
+        }
+        #container{
+            height: 550px;
+            width: 400px;
+            /* border: 1px solid red;  */
+            margin: auto;
+            margin-top: 2%;
+        }
+
+        .zoom{
+            height: 50%;
+            width: 100%;
+            /* border: 1px solid green; */
+
+        }
+     
+
+        /* .mobile{
+            height: 50px;
+            width: 100%;
+            border: 1px solid green;
+        } */
+        .num{
+            border: 0;
+            font-size: 15px ;
+        }
+        .num:focus{
+            outline : none;
+        }
+
+        #mobile_number{
+           /* padding-left: 10%; */
+        }
+
+        #mobile_number>.mobile_details{
+            padding-top: 15px;
+            padding-bottom: 15PX;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 2px;
+            border:0;
+           /* border: 1px solid rgb(194, 183, 183);
+            background-color: black; */
+        } 
+
+        .email_green{
+            color: #10a310;
+        }
+        .green_social{
+            color: #10a310;
+            /* font-family: 'IBM Plex Sans', sans-serif; */
+            
+
+        }
+
+        #social_media{
+            display: flex;
+        }
+        .fb{
+            height: 20px;
+        }
+        .stick{
+            color: #efefef;
+            font-size: 30px;
+        }
+        .imgfb{
+            padding-left: 2%;
+        }
+        #continue_mobile_container{
+            height: 100%;
+            width: 40%;
+            margin: auto;
+            transition: all 1s;
+            margin-top: 200px;
+            position: absolute;
+            top: 40;
+            background-color: white;
+            margin-left: 30vw;
+        }
+
+        .mobile{ 
+            padding-top: 15px;
+            padding-bottom: 15PX;
+            padding-left: 30px;
+            padding-right: 10px;
+            border-radius: 2px;
+            border:0;
+            border: 3px solid #10a310;
+            border-radius: 5%;
+        }
+
+        .mobile_number{
+            padding-top: 15px;
+            padding-bottom: 15PX;
+            padding-left: 10px;
+            padding-right: 50px;
+            margin-left: 3%;
+            border-radius: 2px;
+            border:0;
+            border: 1px solid rgb(194, 183, 183);
+            width: 300px;
+           
+        }
+        .mobile_number:focus{
+            outline-color: #10a310;
+        }
+
+        #continue_btn{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 160px;
+            padding-right: 160px;
+            border-radius: 5px;                                            
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: auto;
+            margin-top: 73%;
+            color: white; 
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .continue_btn{
+            padding-top: 15px;
+            padding-bottom: 15px;                       
+            padding-left: 160px;
+            padding-right: 160px;
+            border-radius: 5px;
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            color: white; 
+            background-color: #10a310;
+            font-weight: bold;
+        }
+        #enter_number{
+            display: flex;
+        }
+        #phoneNumberLabel{
+            font-family: "IBM Plex Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    color: #1f1f1f;
+        }
+        #flag{
+            height: 30px;
+            
+        }
+        #spanWarning{
+            color: red;
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 110px;
+            display: none;
+        }
+
+        #registerBox{
+            position: absolute;
+            text-align: center;
+            margin-top: 50vh;
+            margin-left: 60vw;
+            display: none;
+            background-color: white;
+            height: 200px;
+            width: auto;
+            z-index: 200;
+            transition: all 1s;
+        }
+        #dynamicData{
+            width: 360px;
+        }
+
+
+ 

@@ -1,0 +1,33 @@
+
+    *{
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    #container{
+   height: 600px;
+            width: 500px;
+            /* border: 1px solid red; */
+            margin: auto;padding-top: 2%;
+    }
+    .pass_inp{
+        width: 94%;
+            padding: 15px;
+            border: 1PX SOLID rgb(180, 173, 173);
+            border-radius: 5PX;
+    }
+    .continue_button{
+        padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 160px;
+            padding-right: 160px;
+            border-radius: 5px;
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin: auto;
+            margin-top: 62%;
+            color: white;
+            background-color: #e0e0e0;
+
+    }
+    .green{
+        color: #31b26e;
+    }

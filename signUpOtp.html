@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Self Drive Car Rentals | Rent a Car | Car Hire @Zoomcar</title>
+
+  <link rel="stylesheet" href="./css/signup_otp.css">
+</head>
+<body>
+    <div class="password-form-container">
+        <div class="form-heading">Enter 6-digit OTP</div>
+         <div class="form-sub-heading">
+             <span>OTP was sent to <bdo dir="ltr" id="phoneNumber"></bdo></span>
+              <a class="action">Edit</a>
+            </div>
+             <div class="otp-input-container">
+                 <div class="text-input-wrapper">
+                     <input id="otpBox" name="otp" id="otp" placeholder="OTP" maxlength="6" inputmode="numeric" autocomplete="off" type="text" class="">
+                    </div>
+                </div>
+                <div id="errorMsg"></div>
+                     <div class="other-actions" style="color:#10a310" onclick="sendOtp()">Resend OTP</div>
+                      <div class="continue-button button-container disabled">
+                         
+                        </div>
+
+                        <button id="continue_btn">CONTINUE</button>
+                    </div>
+</body>
+</html>
+<script src="./js/signup_otp.js"></script>
